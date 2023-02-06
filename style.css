@@ -139,12 +139,16 @@ a, button {
 }
 .quote h5 {
 	margin-top: 20px;
-	color: #0009;
-	line-height: 20px;
+	color: 
+		rgb(100, 114, 122);
 }
 .quote p {
 	font-size: 50px;
-	color: #2e2e2e;
+	background: -webkit-linear-gradient( 
+		rgb(145, 138, 228)20%,
+		rgb(130, 181, 209)67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .quote .play {
 	margin-top: 20px;
@@ -161,11 +165,13 @@ a, button {
 	margin-left: 10px;
 	font-size: 20px;
 	font-weight: 900;
-	color: rgba(0, 0, 0, 0.8);
+	color: 
+	rgb(100, 114, 122);
 	cursor: pointer;
 }
 .svg-image img{
-	width: 500px;
+	width: 100%;
+	margin-right: 20px;
 	filter: drop-shadow(0 20px 10px rgba(0,0,0,0.2));
 }
 
@@ -178,7 +184,9 @@ a, button {
 .side-menu {
 	width: 100%;
 	height: 100%;
-	background: rgba(182, 33, 90, 0.993);
+	background: -webkit-linear-gradient( 
+		rgb(145, 138, 228)20%,
+		rgb(130, 181, 209)67%);
 	position: absolute;
 	top: 0;
 	transition: .8s;
@@ -203,7 +211,7 @@ a, button {
 }
 .side-menu ul li:hover a{
 	background: #fff;
-	color: #DF2771;
+	color: rgb(130, 181, 209);
 }
 .side-menu ul li a{
 	color: #FFF;
@@ -243,7 +251,11 @@ a, button {
 /*Common things in all sections*/
 #about_section, #portfolio_section, #team_section, #services_section, #contactus_section {
 	font-family: 'Open Sans', sans-serif;
-	color: #2E3D49;
+	background: -webkit-linear-gradient( 
+		rgb(145, 138, 228)0%,
+		rgb(130, 181, 209)67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 	position: relative;
 }
 .diffSection {
@@ -296,7 +308,7 @@ a, button {
 }
 .smbox .data {
 	font-size: 80px;
-	color: #FA6146;	
+	color: rgb(145 138 228);
 }
 .smbox .det {
 	font-size: 20px;
@@ -306,11 +318,15 @@ a, button {
 
 /*Title*/
 .title {
-	 margin-top: 0px; 
+	margin-top: 0px; 
 	font-family: 'Open Sans', sans-serif;
 	font-size: 30px;
 	text-align: center;
-	color: #2E3D49;
+	background: -webkit-linear-gradient( 
+		rgb(145, 138, 228)20%,
+		rgb(130, 181, 209)67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /*ABOUT*/
@@ -378,14 +394,18 @@ a, button {
 	width: 250px;
 	padding: 28px;
 	border-radius: 10px;
-	border: 1px solid #FA4B37;
+	border: 1px solid rgb(130, 181, 209);
 	font-size: 15px;
 	color: #272529;
 	font-family: cursive;
 	text-decoration: none;
 }
 .cbox .det a:hover {
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(
+    -225deg,
+    rgb(145, 138, 228) 0%,
+    rgb(130, 181, 209)  67%
+  );
 	color: white;
 }
 .cbox .det a:hover img{
