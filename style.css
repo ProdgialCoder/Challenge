@@ -6,6 +6,8 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	
+	
 }
 
 html {
@@ -258,7 +260,6 @@ a, button {
 		rgb(145, 138, 228)0%,
 		rgb(130, 181, 209)67%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 	position: relative;
 }
 .diffSection {
@@ -384,6 +385,8 @@ a, button {
 
 /*POPULAR SUBJECTS*/
 .cbox {
+
+	font-family: 'Open Sans', sans-serif;
 	position: relative;
 	width: 100%;
 	display: inline-flex;
@@ -405,7 +408,6 @@ a, button {
 	border: 1px solid rgb(130, 181, 209);
 	font-size: 15px;
 	color: #272529;
-	font-family: cursive;
 	text-decoration: none;
 }
 .cbox .det a:hover {
@@ -481,6 +483,9 @@ a, button {
 }
 #detail button {
 	outline: none;
+	color: #f4eef0;
+	background:
+		rgb(105, 178, 218);
 	border-radius: 10px;
 	border-style: none;
 	border: 1px solid black;
@@ -497,16 +502,20 @@ a, button {
 	align-self: center;
 }
 .btn-roshan:hover {
-	background: rgba(0,255,0,0.7);
+	background: -webkit-linear-gradient( 
+		rgb(145, 138, 228)20%,
+		rgb(130, 181, 209)67%);
 	color: #fff;
 }
 .btn-roshan2:hover {
-	background: rgba(0,0,255,0.5);
+	background: -webkit-linear-gradient( 
+		rgb(145, 138, 228)20%,
+		rgb(130, 181, 209)67%);
 	color: #fff;
 }
 .card-title {
 	font-size: 17px;
-	color: #343A40;
+	color: #89aacb;
 	padding: 20px;
 	font-weight: 700;
 }
