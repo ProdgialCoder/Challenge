@@ -527,7 +527,10 @@ a, button {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("images/extra/b3.jpg");
+
+	background: -webkit-linear-gradient( 
+		rgb(145, 138, 228)20%,
+		rgb(130, 181, 209)67%);
 	background-size: cover;
 	background-attachment: fixed;
 }
