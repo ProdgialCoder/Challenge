@@ -758,14 +758,15 @@ form textarea {
 	background-attachment: fixed;
 }
 .feed {
+	margin: 0 auto;
 	width: 800px;
 	height: 400px;
 	position: center;
 	border-radius: 10px;
 	justify-content: center;
-	box-shadow: inset 0 0 90px rgba(0,0,0,0.6),
+	box-shadow: inset 0 0 90px rgba(114, 90, 184, 0.6),
 					0 0 80px rgba(0,0,0,0.2);
-	background: rgba(0,0,0,0.4);
+	background: rgba(137, 173, 222, 0.4);
 }
 .feed form {
 	width: 100%;
@@ -782,11 +783,11 @@ form textarea {
 .feed form input, .feed textarea {
 	padding: 15px;
 	border-radius: 5px;
-	box-shadow: inset 0 0 5px lightgray;
-	border: 1px solid rgba(0,0,0,0.2);
+	box-shadow: inset 0 0 5px white;
+	border: 1px solid white;
 	outline: none;
 	color: #2E3D49;
-	background: #fff9;
+	background: white;
 	font-weight: 600;
 }
 .feed form input {
@@ -802,7 +803,9 @@ form textarea {
 }
 .feed #csubmit {
 	margin-top: 25px; 
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: -webkit-linear-gradient( 
+		rgba(145, 138, 228, 0.684)20%,
+		rgba(130, 181, 209, 0.613)67%);
 	border-radius: 5px;
 	border-style: none;
 	outline: none;
@@ -824,8 +827,8 @@ form textarea {
 
 /*FOOTER*/
 footer {
-	color: #E5E8EF;
-	background: #000D;
+	color: #8094c3;
+	background: white;
 	padding: 50px 0; 
 }
 footer .footer-container {
@@ -842,7 +845,7 @@ footer .social-media img{
 }
 footer .logo {
 	width: 180px;
-	color: #fff;
+	color: rgb(180, 83, 83);
 }
 footer .social-media a{
 	margin-right: 10px;
@@ -855,7 +858,9 @@ footer .right-col h1{
 footer .border{
 	width: 100px;
 	height: 4px;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: -webkit-linear-gradient( 
+		rgba(145, 138, 228, 0.684)20%,
+		rgba(130, 181, 209, 0.613)67%);
 	margin: 2px;
 }
 footer .newsletter-form {
@@ -865,7 +870,7 @@ footer .newsletter-form {
 	flex-wrap: wrap;
 }
 footer input::placeholder {
-  color: white !important;
+  color: rgb(226, 232, 238) !important;
 }
 footer .txtb {
 	flex: 1;
@@ -878,14 +883,16 @@ footer .txtb {
 	border-radius: 5px;
 	min-width: 260px;
 	margin-top: 20px;
-	color: white;
+	color: rgb(220, 223, 225);
 }
 footer .btn {
 	margin-top: 20px;
 	padding: 18px 40px;
 	font-size: 16px;
-	color: #f1f1f1;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	color: #ece9e9;
+	background: -webkit-linear-gradient( 
+		rgba(145, 138, 228, 0.684)20%,
+		rgba(130, 181, 209, 0.613)67%);
 	border: none;
 	font-weight: 700;
 	outline: none;
