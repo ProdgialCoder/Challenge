@@ -6,7 +6,9 @@
 
 body {
 	background: #ffffff;
+	background-image: url("https://img.freepik.com/free-vector/early-scilla-flower-background-vector-blue-watercolor-winter-season_53876-126361.jpg?w=2000&t=st=1676216455~exp=1676217055~hmac=ed45d5299d17fb81f1591e6aa70655e1ac6f8c280b4c9574f873ffc7399fda9f");
 	background-size: cover;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 	display: flex;
 	justify-content: center;
@@ -124,7 +126,7 @@ body {
 	background: -webkit-linear-gradient( 
 		rgba(145, 138, 228, 0.684)20%,
 		rgba(130, 181, 209, 0.613)67%);
-	color: #fff;
+	color: #020202;
 	border: 0;
 	outline: none;
 	border-radius: 30px;
