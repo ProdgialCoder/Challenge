@@ -10,8 +10,11 @@
   <!-- It will redirect to the Home Page after submitting the form -->
   <script>
   $(document).ready(function(){
-    $("form").submit(function(){
-      alert("Great Job !");
+    $("form").submit(function(event){
+      event.preventDefault();
+      const username = $("#email").val();
+      localStorage.setItem("username", username);
+      window.location.href = "/index.html";
     });
   });
   </script>
@@ -50,5 +53,10 @@
 			</form>
 		</div>
 		<script type="text/javascript" src="Login.js"></script>
+
+        <button id="questionButton">Ask a Question</button>
+
+
+        
 </body>
 </html>
