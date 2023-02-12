@@ -69,7 +69,7 @@ function scrollAppear() {
   // CheckBox Function
   function goFurther(){
     if (document.getElementById("chkAgree").checked == true) {
-      document.getElementById('btnSubmit').style = 'background: linear-gradient(to right, #FA4B37, #DF2771);';
+      document.getElementById('btnSubmit').style = 'background: linear-gradient(to right, rgba(145, 138, 228, 0.684),  rgba(130, 181, 209, 0.613));';
     }
     else{
       document.getElementById('btnSubmit').style = 'background: lightgray;';
